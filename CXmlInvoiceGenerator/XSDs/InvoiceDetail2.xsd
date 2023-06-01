@@ -1,0 +1,782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/InvoiceDetail" xmlns:xades="uri:xades" elementFormDefault="qualified" targetNamespace="uri:xades" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:element name="Any" type="xs:string" />
+	<xs:element name="ObjectIdentifier">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:Identifier" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:Description" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:DocumentationReferences" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Identifier">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="Qualifier" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Description" type="xs:string" />
+	<xs:element name="DocumentationReferences">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="unbounded">
+				<xs:element ref="xades:DocumentationReference" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DocumentationReference" type="xs:string" />
+	<xs:element name="EncapsulatedPKIData">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="Id" />
+					<xs:attribute ref="Encoding" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Include">
+		<xs:complexType>
+			<xs:attribute ref="URI" use="required" />
+			<xs:attribute ref="referencedData" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ReferenceInfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element xmlns:q1="uri:ds" ref="q1:DigestMethod" />
+				<xs:element xmlns:q2="uri:ds" ref="q2:DigestValue" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+			<xs:attribute ref="URI" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="XAdESTimeStamp">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="xades:Include" />
+				<xs:element minOccurs="0" maxOccurs="1" xmlns:q3="uri:ds" ref="q3:CanonicalizationMethod" />
+				<xs:choice minOccurs="1" maxOccurs="unbounded">
+					<xs:element ref="xades:EncapsulatedTimeStamp" />
+					<xs:element ref="xades:XMLTimeStamp" />
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OtherTimeStamp">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:ReferenceInfo" />
+				<xs:element minOccurs="0" maxOccurs="1" xmlns:q4="uri:ds" ref="q4:CanonicalizationMethod" />
+				<xs:choice>
+					<xs:element ref="xades:EncapsulatedTimeStamp" />
+					<xs:element ref="xades:XMLTimeStamp" />
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="EncapsulatedTimeStamp">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="Id" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="XMLTimeStamp" type="xs:string" />
+	<xs:element name="QualifyingProperties">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:SignedProperties" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:UnsignedProperties" />
+			</xs:sequence>
+			<xs:attribute ref="Target" use="required" />
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SignedProperties">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:SignedSignatureProperties" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:SignedDataObjectProperties" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="UnsignedProperties">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:UnsignedSignatureProperties" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:UnsignedDataObjectProperties" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SignedSignatureProperties">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:SigningTime" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:SigningCertificate" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:SignaturePolicyIdentifier" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:SignatureProductionPlace" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:SignerRole" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SignedDataObjectProperties">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="xades:DataObjectFormat" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="xades:CommitmentTypeIndication" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="xades:AllDataObjectsTimeStamp" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="xades:IndividualDataObjectsTimeStamp" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="UnsignedSignatureProperties">
+		<xs:complexType>
+			<xs:choice minOccurs="1" maxOccurs="unbounded">
+				<xs:element ref="xades:CounterSignature" />
+				<xs:element ref="xades:SignatureTimeStamp" />
+				<xs:element ref="xades:CompleteCertificateRefs" />
+				<xs:element ref="xades:CompleteRevocationRefs" />
+				<xs:element ref="xades:AttributeCertificateRefs" />
+				<xs:element ref="xades:AttributeRevocationRefs" />
+				<xs:element ref="xades:SigAndRefsTimeStamp" />
+				<xs:element ref="xades:RefsOnlyTimeStamp" />
+				<xs:element ref="xades:CertificateValues" />
+				<xs:element ref="xades:RevocationValues" />
+				<xs:element ref="xades:AttrAuthoritiesCertValues" />
+				<xs:element ref="xades:AttributeRevocationValues" />
+				<xs:element ref="xades:ArchiveTimeStamp" />
+			</xs:choice>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="UnsignedDataObjectProperties">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="xades:UnsignedDataObjectProperty" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="UnsignedDataObjectProperty" type="xs:string" />
+	<xs:element name="QualifyingPropertiesReference">
+		<xs:complexType>
+			<xs:attribute ref="URI" use="required" />
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SigningTime" type="xs:string" />
+	<xs:element name="SigningCertificate">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:Cert" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Cert">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:CertDigest" />
+				<xs:element ref="xades:IssuerSerial" />
+			</xs:sequence>
+			<xs:attribute ref="URI" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CertDigest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element xmlns:q5="uri:ds" ref="q5:DigestMethod" />
+				<xs:element xmlns:q6="uri:ds" ref="q6:DigestValue" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="IssuerSerial">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element xmlns:q7="uri:ds" ref="q7:X509IssuerName" />
+				<xs:element xmlns:q8="uri:ds" ref="q8:X509SerialNumber" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="X509IssuerName" type="xs:string" />
+	<xs:element name="X509SerialNumber" type="xs:string" />
+	<xs:element name="SignaturePolicyIdentifier">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="xades:SignaturePolicyId" />
+				<xs:element ref="xades:SignaturePolicyImplied" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SignaturePolicyImplied">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:any minOccurs="0" maxOccurs="unbounded" namespace="##any" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SignaturePolicyId">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:SigPolicyId" />
+				<xs:element minOccurs="0" maxOccurs="1" xmlns:q9="uri:ds" ref="q9:Transforms" />
+				<xs:element ref="xades:SigPolicyHash" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:SigPolicyQualifiers" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SigPolicyId">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:Identifier" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:Description" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:DocumentationReferences" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SigPolicyHash">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element xmlns:q10="uri:ds" ref="q10:DigestMethod" />
+				<xs:element xmlns:q11="uri:ds" ref="q11:DigestValue" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SigPolicyQualifiers">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:SigPolicyQualifier" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SigPolicyQualifier">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="xades:SPURI" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SPURI" type="xs:string" />
+	<xs:element name="SPUserNotice">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:NoticeRef" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:ExplicitText" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="NoticeRef">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:Organization" />
+				<xs:element ref="xades:NoticeNumbers" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ExplicitText" type="xs:string" />
+	<xs:element name="Organization" type="xs:string" />
+	<xs:element name="NoticeNumbers">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="xades:int" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="int" type="xs:string" />
+	<xs:element name="CounterSignature">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element xmlns:q12="uri:ds" ref="q12:Signature" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DataObjectFormat">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:Description" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:ObjectIdentifier" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:MimeType" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:Encoding" />
+			</xs:sequence>
+			<xs:attribute ref="ObjectReference" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="MimeType" type="xs:string" />
+	<xs:element name="Encoding" type="xs:string" />
+	<xs:element name="CommitmentTypeIndication">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:CommitmentTypeId" />
+				<xs:choice>
+					<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:ObjectReference" />
+					<xs:element ref="xades:AllSignedDataObjects" />
+				</xs:choice>
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:CommitmentTypeQualifiers" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CommitmentTypeId">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:Identifier" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:Description" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:DocumentationReferences" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ObjectReference" type="xs:string" />
+	<xs:element name="AllSignedDataObjects">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:any minOccurs="0" maxOccurs="unbounded" namespace="##any" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CommitmentTypeQualifiers">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="xades:CommitmentTypeQualifier" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CommitmentTypeQualifier" type="xs:string" />
+	<xs:element name="SignatureProductionPlace">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:City" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:StateOrProvince" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:PostalCode" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:CountryName" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="City" type="xs:string" />
+	<xs:element name="StateOrProvince" type="xs:string" />
+	<xs:element name="PostalCode" type="xs:string" />
+	<xs:element name="CountryName" type="xs:string" />
+	<xs:element name="SignerRole">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:ClaimedRoles" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:CertifiedRoles" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ClaimedRoles">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:ClaimedRole" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CertifiedRoles">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:CertifiedRole" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ClaimedRole" type="xs:string" />
+	<xs:element name="CertifiedRole">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="Id" />
+					<xs:attribute ref="Encoding" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="AllDataObjectsTimeStamp">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" xmlns:q13="uri:ds" ref="q13:CanonicalizationMethod" />
+				<xs:choice minOccurs="1" maxOccurs="unbounded">
+					<xs:element ref="xades:EncapsulatedTimeStamp" />
+					<xs:element ref="xades:XMLTimeStamp" />
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="IndividualDataObjectsTimeStamp">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:Include" />
+				<xs:element minOccurs="0" maxOccurs="1" xmlns:q14="uri:ds" ref="q14:CanonicalizationMethod" />
+				<xs:choice minOccurs="1" maxOccurs="unbounded">
+					<xs:element ref="xades:EncapsulatedTimeStamp" />
+					<xs:element ref="xades:XMLTimeStamp" />
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SignatureTimeStamp">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" xmlns:q15="uri:ds" ref="q15:CanonicalizationMethod" />
+				<xs:choice minOccurs="1" maxOccurs="unbounded">
+					<xs:element ref="xades:EncapsulatedTimeStamp" />
+					<xs:element ref="xades:XMLTimeStamp" />
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CompleteCertificateRefs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:CertRefs" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CertRefs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:Cert" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="AttributeCertificateRefs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:CertRefs" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CompleteRevocationRefs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:CRLRefs" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:OCSPRefs" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:OtherRefs" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CRLRefs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:CRLRef" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OCSPRefs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:OCSPRef" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OtherRefs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:OtherRef" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CRLRef">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:DigestAlgAndValue" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:CRLIdentifier" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OCSPRef">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:OCSPIdentifier" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:DigestAlgAndValue" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OtherRef" type="xs:string" />
+	<xs:element name="DigestAlgAndValue">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element xmlns:q16="uri:ds" ref="q16:DigestMethod" />
+				<xs:element xmlns:q17="uri:ds" ref="q17:DigestValue" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CRLIdentifier">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:Issuer" />
+				<xs:element ref="xades:IssueTime" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:Number" />
+			</xs:sequence>
+			<xs:attribute ref="URI" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OCSPIdentifier">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xades:ResponderID" />
+				<xs:element ref="xades:ProducedAt" />
+			</xs:sequence>
+			<xs:attribute ref="URI" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Issuer" type="xs:string" />
+	<xs:element name="IssueTime" type="xs:string" />
+	<xs:element name="Number" type="xs:string" />
+	<xs:element name="ResponderID">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="xades:ByName" />
+				<xs:element ref="xades:ByKey" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ByName" type="xs:string" />
+	<xs:element name="ByKey" type="xs:string" />
+	<xs:element name="ProducedAt" type="xs:string" />
+	<xs:element name="AttributeRevocationRefs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:CRLRefs" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:OCSPRefs" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:OtherRefs" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SigAndRefsTimeStamp">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="xades:Include" />
+				<xs:element minOccurs="0" maxOccurs="1" xmlns:q18="uri:ds" ref="q18:CanonicalizationMethod" />
+				<xs:choice minOccurs="1" maxOccurs="unbounded">
+					<xs:element ref="xades:EncapsulatedTimeStamp" />
+					<xs:element ref="xades:XMLTimeStamp" />
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="RefsOnlyTimeStamp">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="xades:Include" />
+				<xs:element minOccurs="0" maxOccurs="1" xmlns:q19="uri:ds" ref="q19:CanonicalizationMethod" />
+				<xs:choice minOccurs="1" maxOccurs="unbounded">
+					<xs:element ref="xades:EncapsulatedTimeStamp" />
+					<xs:element ref="xades:XMLTimeStamp" />
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CertificateValues">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="xades:EncapsulatedX509Certificate" />
+				<xs:element ref="xades:OtherCertificate" />
+			</xs:choice>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="EncapsulatedX509Certificate">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="Id" />
+					<xs:attribute ref="Encoding" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OtherCertificate" type="xs:string" />
+	<xs:element name="AttrAuthoritiesCertValues">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="xades:EncapsulatedX509Certificate" />
+				<xs:element ref="xades:OtherCertificate" />
+			</xs:choice>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="RevocationValues">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:CRLValues" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:OCSPValues" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:OtherValues" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CRLValues">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:EncapsulatedCRLValue" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OCSPValues">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:EncapsulatedOCSPValue" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OtherValues">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="xades:OtherValue" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="EncapsulatedCRLValue">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="Id" />
+					<xs:attribute ref="Encoding" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="EncapsulatedOCSPValue">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="Id" />
+					<xs:attribute ref="Encoding" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OtherValue" type="xs:string" />
+	<xs:element name="AttributeRevocationValues">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:CRLValues" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:OCSPValues" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="xades:OtherValues" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ArchiveTimeStamp">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="xades:Include" />
+				<xs:element minOccurs="0" maxOccurs="1" xmlns:q20="uri:ds" ref="q20:CanonicalizationMethod" />
+				<xs:choice minOccurs="1" maxOccurs="unbounded">
+					<xs:element ref="xades:EncapsulatedTimeStamp" />
+					<xs:element ref="xades:XMLTimeStamp" />
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

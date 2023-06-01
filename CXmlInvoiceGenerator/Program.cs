@@ -1,11 +1,14 @@
 ﻿using DatabaseAccess;
+using Microsoft.VisualBasic;
 using System.Data;
+using System.Xml;
+using System.Xml.Linq;
+using System.Xml.Serialization;
 
 namespace CXmlInvoiceGenerator
 {
     internal class Program
     {
-
         static void Main(string[] args)
         {
             Console.WriteLine("New invoice generation run starting at " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
@@ -13,48 +16,92 @@ namespace CXmlInvoiceGenerator
             Console.WriteLine("New invoice generation run finishing at " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
         }
 
-
         private static void GenerateCXMLForNewInvoices()
         {
+            bool bOK = true;
 
-            // == Please complete this function ==
+            try
+            {
+                //read the config
+                CXmlInvoiceGeneratorConfiguration config =  CXmlInvoiceGeneratorConfigurationHelper.GetCXmlInvoiceGeneratorConfiguration();
+                if ((config == null)
+                    || (!config.IsValid()))
+                {
+                    //halt execution if the configuration is invalid
+                    return;
+                }
 
-            // 1) Using the DatabaseAccess dll provided and referenced (in the refs folder), load each invoice from the database
-            //
-            // 2) Create a cXml invoice document using the information from each invoice
+                //ensure the ouput folder exists
+                Directory.CreateDirectory(config.OutputFolder);
 
-            // The following is a very helpful resource for cXml:
+                //get the 'Invoices'
+                Invoices invoiceDB = new();
+                DataTable newInvoices = invoiceDB.GetNewInvoices();
 
-            // https://compass.coupa.com/en-us/products/product-documentation/supplier-resources/supplier-integration-resources/standard-invoice-examples/sample-cxml-invoice-with-payment-terms
+                //loop through each 'Invoice' row
+                foreach (DataRow row in newInvoices.Rows)
+                {
+                    bOK = true;
+
+                    string? invoiceId = row["Id"].ToString();
+                    if ((invoiceId == null)
+                        || (invoiceId.Trim().Length == 0))
+                    {
+                        bOK = false;
+                        Console.WriteLine("Invoice missing InvoiceId");
+                    }
+
+                    if (bOK)
+                    {
+                        try
+                        {
+                            Console.WriteLine("Loading Invoice: " + invoiceId);
+
+                            //create the cXml Invoice for the invoice
+                            cXML invoice = new cXML
+                            {
+                                payloadID = invoiceId,   //just using InvoiceId for this?
+                                timestamp = DateTime.Now.ToString() // not sure if the XML format will be correct. Can change format if required.
+                            };
+
+                            Header invHeader = InvoiceDetailHelper.GetHeader(config);
+                            Request invRequest = InvoiceDetailHelper.GetRequest(config, row);
+
+                            object[] invItems = new object[] { invHeader, invRequest };
+                            invoice.Items = invItems;
+
+                            //save the cXml Invoice to the configured output folder
+                            string fullFilePath = System.IO.Path.Combine(config.OutputFolder, invoiceId + ".xml");
+                            Console.WriteLine("Wrinting Invoice " + invoiceId + " to file " + fullFilePath);
+
+                            System.Xml.Serialization.XmlSerializer xmlSerializer = new System.Xml.Serialization.XmlSerializer(invoice.GetType());
+                            using (StreamWriter streamWriter = new StreamWriter(fullFilePath))
+                            {
+                                xmlSerializer.Serialize(streamWriter, invoice);
+                            }
+
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("Invoice Error: " + invoiceId + " - " + ex.ToString());
+                        }
+                    }
+                }
+            }
+            catch(Exception ex) 
+            {
+                Console.WriteLine(ex.ToString());
+            }
+
+
+
 
             // Assume the invoice is raised on the same day you find it, so PaymentTerms is from Today
 
             // VAT mode is header (overall total) only, not at item level
 
             // 3) Save the created invoices into a specified output file with the .xml file extension
-
-            // The "purpose" for each invoice is "standard"
-            // The "operation" for each invoice is "new"
-            // The output folder is entirely up to you, based on your file system
-            // You can use "fake" credentials (Domain/Identity/SharedSecret etc. etc.) of your own choosing for the From/To/Sender section for this test
-            //
-            // It would likely be a good idea for all of these to be configurable in some way, in a .Net options/settings file or an external ini file
-
-            // Ideally, you will write reasonable progress steps to the console window
-
-            // You may add references to anything you want from the standard Nuget URL
-
-            // You may modify the signature to this function if you want to pass values into it
-
-            // You may move this code into another class (or indeed classes) of your choosing
-
-            Invoices invoiceDB = new();
-            DataTable newInvoices = invoiceDB.GetNewInvoices();
-
-            // invoiceDB contains other functions you will need...
-
         }
-
 
 
 

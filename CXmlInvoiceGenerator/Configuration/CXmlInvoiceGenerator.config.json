@@ -1,0 +1,19 @@
+{
+  "outputFolder": "c:\\temp\\CXmlInvoices",
+  "from": {
+    "domain": "testFromDomain",
+    "identity": "testFromIdentity"
+  },
+  "to": {
+    "domain": "testToDomain",
+    "identity": "testToIdentity"
+  },
+  "sender": {
+    "domain": "testSenderDomain",
+    "identity": "testSenderIdentity",
+    "sharedSecret": "testSenderSharedSecret"
+  },
+  "userAgent": "testUserAgent",
+  "purpose": "standard",
+  "operation": "new"
+}

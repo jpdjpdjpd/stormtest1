@@ -8,9 +8,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Configuration\CXmlInvoiceGenerator.config.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="DatabaseAccess">
       <HintPath>refs\DatabaseAccess.dll</HintPath>
     </Reference>
   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Configuration\CXmlInvoiceGenerator.config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTDs\" />
+    <Folder Include="XSDs\" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties configuration_4cxmlinvoicegenerator_1config_1json__JsonSchema="https://json-stat.org/format/schema/2.0/" /></VisualStudio></ProjectExtensions>
 
 </Project>

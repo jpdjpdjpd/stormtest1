@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xades="uri:xades" xmlns:ds="uri:ds" xmlns="http://tempuri.org/InvoiceDetail" elementFormDefault="qualified" targetNamespace="uri:ds" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="uri:xades" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:import namespace="http://tempuri.org/InvoiceDetail" />
+	<xs:element name="Signature">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ds:SignedInfo" />
+				<xs:element ref="ds:SignatureValue" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="ds:KeyInfo" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="ds:Object" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SignatureValue">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="Id" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SignedInfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ds:CanonicalizationMethod" />
+				<xs:element ref="ds:SignatureMethod" />
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="ds:Reference" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CanonicalizationMethod">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="Algorithm" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SignatureMethod">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="ds:HMACOutputLength" />
+			</xs:choice>
+			<xs:attribute ref="Algorithm" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Reference">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="ds:Transforms" />
+				<xs:element ref="ds:DigestMethod" />
+				<xs:element ref="ds:DigestValue" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+			<xs:attribute ref="URI" />
+			<xs:attribute ref="Type" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Transforms">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="ds:Transform" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Transform">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="ds:XPath" />
+			</xs:choice>
+			<xs:attribute ref="Algorithm" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="XPath" type="xs:string" />
+	<xs:element name="DigestMethod">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="Algorithm" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DigestValue" type="xs:string" />
+	<xs:element name="KeyInfo">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="ds:KeyName" />
+				<xs:element ref="ds:KeyValue" />
+				<xs:element ref="ds:RetrievalMethod" />
+				<xs:element ref="ds:X509Data" />
+				<xs:element ref="ds:PGPData" />
+				<xs:element ref="ds:SPKIData" />
+				<xs:element ref="ds:MgmtData" />
+			</xs:choice>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="KeyName" type="xs:string" />
+	<xs:element name="KeyValue">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="ds:DSAKeyValue" />
+				<xs:element ref="ds:RSAKeyValue" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="MgmtData" type="xs:string" />
+	<xs:element name="RetrievalMethod">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="ds:Transforms" />
+			</xs:sequence>
+			<xs:attribute ref="URI" use="required" />
+			<xs:attribute ref="Type" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="X509Data">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice minOccurs="1" maxOccurs="unbounded">
+					<xs:element ref="ds:X509IssuerSerial" />
+					<xs:element ref="ds:X509SKI" />
+					<xs:element ref="ds:X509SubjectName" />
+					<xs:element ref="ds:X509Certificate" />
+					<xs:element ref="ds:X509CRL" />
+				</xs:choice>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="X509IssuerSerial">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ds:X509IssuerName" />
+				<xs:element ref="ds:X509SerialNumber" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="X509IssuerName" type="xs:string" />
+	<xs:element name="X509SubjectName" type="xs:string" />
+	<xs:element name="X509SerialNumber" type="xs:string" />
+	<xs:element name="X509SKI" type="xs:string" />
+	<xs:element name="X509Certificate" type="xs:string" />
+	<xs:element name="X509CRL" type="xs:string" />
+	<xs:element name="PGPData">
+		<xs:complexType>
+			<xs:choice>
+				<xs:sequence>
+					<xs:element ref="ds:PGPKeyID" />
+					<xs:element minOccurs="0" maxOccurs="1" ref="ds:PGPKeyPacket" />
+				</xs:sequence>
+				<xs:element ref="ds:PGPKeyPacket" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="PGPKeyPacket" type="xs:string" />
+	<xs:element name="PGPKeyID" type="xs:string" />
+	<xs:element name="SPKIData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ds:SPKISexp" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SPKISexp" type="xs:string" />
+	<xs:element name="Object">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="ds:Signature" />
+				<xs:element ref="ds:SignatureProperties" />
+				<xs:element ref="ds:Manifest" />
+				<xs:element ref="xades:QualifyingProperties" />
+				<xs:element ref="cXMLSignedInfo" />
+				<xs:element ref="Extrinsic" />
+			</xs:choice>
+			<xs:attribute ref="Id" />
+			<xs:attribute ref="MimeType" />
+			<xs:attribute ref="Encoding" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Manifest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="ds:Reference" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SignatureProperties">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="ds:SignatureProperty" />
+			</xs:sequence>
+			<xs:attribute ref="Id" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SignatureProperty">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="Target" use="required" />
+					<xs:attribute ref="Id" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="HMACOutputLength" type="xs:string" />
+	<xs:element name="DSAKeyValue">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:sequence minOccurs="0" maxOccurs="1">
+					<xs:element ref="ds:P" />
+					<xs:element ref="ds:Q" />
+				</xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="ds:G" />
+				<xs:element ref="ds:Y" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="ds:J" />
+				<xs:sequence minOccurs="0" maxOccurs="1">
+					<xs:element ref="ds:Seed" />
+					<xs:element ref="ds:PgenCounter" />
+				</xs:sequence>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="P" type="xs:string" />
+	<xs:element name="Q" type="xs:string" />
+	<xs:element name="G" type="xs:string" />
+	<xs:element name="Y" type="xs:string" />
+	<xs:element name="J" type="xs:string" />
+	<xs:element name="Seed" type="xs:string" />
+	<xs:element name="PgenCounter" type="xs:string" />
+	<xs:element name="RSAKeyValue">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ds:Modulus" />
+				<xs:element ref="ds:Exponent" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Modulus" type="xs:string" />
+	<xs:element name="Exponent" type="xs:string" />
+</xs:schema>
